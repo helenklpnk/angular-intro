@@ -1,0 +1,16 @@
+<div>
+    <div>
+        <p>Авторизация</p>
+        <div>
+            <input [(ngModel)]="login" placeholder="Логин">
+            <input type="password" [(ngModel)]="passwd" placeholder="Пароль">
+        </div>
+        <label>{{msg}}</label>
+        <button (click)="logon()">Войти</button>
+        <a href="#">Нужна помощь?</a>
+    </div>
+    <div>
+        <p>Открыть счет</p>
+        <button (click)="openAccount()">Зарегистрироваться</button>
+    </div>
+</div>

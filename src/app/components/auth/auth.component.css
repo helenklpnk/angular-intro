@@ -1,0 +1,60 @@
+div {
+    background-color: #f3f4f5;
+    color: #333b57;
+    padding: 40px;
+}
+div > div {
+    background-color: #ecedef;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+div > div:last-child {
+    margin-top: 20px;
+}
+p {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 10px 0;
+}
+div > div > div {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+input {
+    height: 30px;
+    width: 100%;
+    background-color: unset;
+    border: none;
+    border-bottom: 0.5px solid black;
+    font-size: medium;
+}
+label, a {
+    color: darkred;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+label, button {
+    margin-top: 10px;
+}
+button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #333b57;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+}
+button:hover {
+    background-color: #242a3d;
+    transition: 0.5s;
+}

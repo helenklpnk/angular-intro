@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <p>Открытие счета</p>
+        <input [(ngModel)]="newAccount.login" placeholder="Логин">
+        <input type="password" [(ngModel)]="newAccount.password" placeholder="Пароль">
+        <input [(ngModel)]="newAccount.first_name" placeholder="Имя">
+        <input [(ngModel)]="newAccount.last_name" placeholder="Фамилия">
+        <input [(ngModel)]="newAccount.city" placeholder="Город">
+        <label>Начальная сумма:</label>
+        <input [(ngModel)]="newAccount.balance" placeholder="Начальная сумма">
+        <span>{{msg}}</span>
+        <button (click)="openAccount()">Открыть счет</button>
+    </div>
+</div>

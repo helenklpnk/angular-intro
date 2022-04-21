@@ -1,0 +1,49 @@
+div {
+    margin: 30px;
+}
+section > div:first-of-type {
+    margin-top: 50px;
+}
+section > div:last-of-type {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+h2 {
+    color: #242a3d;
+}
+.option {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #ecedef;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120px;
+}
+.option:hover {
+    box-shadow: 10px 5px 5px #333b577c;
+    transition: 0.5s;
+}
+.option > h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.option > p {
+    font-size: 40px;
+    font-weight: lighter;
+}
+button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #333b57;
+    color: #ecedef;
+    border: none;
+}
+button:hover {
+    background-color: #242a3d;
+    transition: 0.5s;
+}

@@ -1,0 +1,50 @@
+section {
+    padding: 30px;
+}
+div {
+    background-color: #ecedef;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+p {
+    padding: 20px;
+}
+p:last-of-type {
+    border-bottom: 0.1px solid #bfc0c0;
+}
+.attention {
+    background-color: rgba(168, 72, 72, 0.76);
+    color: darkred  ;
+}
+label, input, button {
+    margin: 0 20px;
+}
+input {
+    height: 30px;
+    background-color: unset;
+    border: none;
+    border-bottom: 0.5px solid black;
+    font-size: medium;
+}
+button {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(168, 4, 4, 0.76);
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: darkred;
+    transition: 0.5s;
+}
+span {
+    color: darkred;
+    font-size: medium;
+    text-align: center;
+}

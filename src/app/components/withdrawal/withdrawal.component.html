@@ -1,0 +1,9 @@
+<section>
+    <div>
+        <label>Введите сумму, которую вы хотите снять:
+        <input [(ngModel)]="amount" placeholder="Логин"></label>
+        <button (click)="onButtonWithdraw()">Снять</button>
+        <button (click)="back()">Вернуться</button>
+        <span>{{msg}}</span>
+    </div>
+</section>

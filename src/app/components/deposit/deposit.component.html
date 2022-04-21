@@ -1,0 +1,9 @@
+<section>
+    <div>
+        <label>Введите сумму, которую вы хотите начислить:</label>
+        <input [(ngModel)]="amount" placeholder="Логин">
+        <button (click)="onDepositButton()">Начислить</button>
+        <button (click)="back()">Вернуться</button>
+        <span>{{msg}}</span>
+    </div>
+</section>

@@ -1,0 +1,13 @@
+<section>
+    <div>
+        <p>Вы уверены, что хотите это сделать?</p>
+        <p class="attention">Это важно.</p>
+        <p>Вы не сможете осуществлять банковские операции, пока не откроете новый счет.</p>
+        <label>Ваш логин:</label>
+        <input [(ngModel)]="login">
+        <label>Для подтверждения введите <i>закрыть мой счет</i> ниже:</label>
+        <input [(ngModel)]="verify">
+        <button (click)="onButtonDelete()">Закрыть счет</button>
+        <span>{{msg}}</span>
+    </div>
+</section>
